@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import "./Personal.css"
 
  class Personal extends Component {
   render() {
     return (
-      <div>ad:Ali;
-        yash:25
+      <div className='Thirst'>
+        <p>ad:Ali;</p>
+        <p>yash:25</p>
       </div>
     )
   }

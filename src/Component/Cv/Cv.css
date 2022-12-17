@@ -1,0 +1,10 @@
+.Veb{
+
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    
+
+}
+p{
+    margin: 0px;
+}
