@@ -8,9 +8,9 @@ import "./Cv.css"
 function My () {
   return (
     <div className="Veb">
-    <Personal/>
-    <Experince/>
-    <Contact/>
+    <Personal name="Mehdi" soyad="Elesgerli"/>
+    <Experince ishTecrubesi="3 il" isYeri="BP company"/>
+    <Contact  email="mm@gmail.com"/>
     </div>
   )
 }

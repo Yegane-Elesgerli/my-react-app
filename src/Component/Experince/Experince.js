@@ -3,9 +3,11 @@ import "./Experince.css"
 
  class Experince extends Component {
   render() {
+    const {ishTecrubesi,isYeri}=this.props
     return (
       <div className='First'>
-        ish tecrubesi: 3 il
+        <p >staj:<span>{ishTecrubesi}</span></p>
+        <p >ish yeri::<span>{isYeri}</span></p>
       </div>
     )
   }

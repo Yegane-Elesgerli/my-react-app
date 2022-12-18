@@ -5,8 +5,8 @@ import "./Contact.css"
   render() {
     return (
       <div className='Second'>
-        <p>tel: 00000000</p>
-        <p>e-mail:vbn@gmail.com</p>
+      
+        <p>email:{this.props.email}</p>
       </div>
     )
   }

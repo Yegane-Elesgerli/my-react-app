@@ -3,10 +3,12 @@ import "./Personal.css"
 
  class Personal extends Component {
   render() {
+    const {name,soyad}=this.props
     return (
       <div className='Thirst'>
-        <p>ad:Ali;</p>
-        <p>yash:25</p>
+        <p>name:{name}</p>
+        <p>soyad:{soyad}</p>
+        
       </div>
     )
   }
