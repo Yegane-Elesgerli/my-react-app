@@ -5,7 +5,7 @@ import Contact from "../Contact/Contact";
 import "./Cv.css"
 
 
-function My () {
+function MyFunc () {
   return (
     <div className="Veb">
     <Personal name="Mehdi" soyad="Elesgerli"/>
@@ -14,4 +14,4 @@ function My () {
     </div>
   )
 }
-export default  My
+export default  MyFunc

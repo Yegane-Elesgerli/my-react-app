@@ -1,11 +1,11 @@
 import React from "react";
-import My from "./Component/Cv/Cv";
+import MyFunc from "./Component/Cv/Cv";
 
 
  function App() {
   return (
     <div>
-      <My/>
+      <MyFunc/>
     </div>
   )
 }
