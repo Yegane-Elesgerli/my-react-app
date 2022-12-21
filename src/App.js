@@ -1,13 +1,14 @@
-import React from "react";
-import MyFunc from "./Component/Cv/Cv";
+import React, { Component } from 'react'
+import Profil from './Profil state/Profil'
 
-
- function App() {
-  return (
-    <div>
-      <MyFunc/>
-    </div>
-  )
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Profil/>
+        </div>
+    )
+  }
 }
+export default  App 
 
-export default App;
