@@ -1,11 +1,11 @@
 import React from "react";
-import My from "./Component/Cv/Cv";
+import Dice from "./Dice/Dice";
 
 
  function App() {
   return (
     <div>
-      <My/>
+      <Dice/>
     </div>
   )
 }

@@ -1,0 +1,21 @@
+.btn{
+   
+    height: 50px;
+    width: 50px;
+    border: solid 3px black;
+    text-align: center;
+   
+}
+.zerAt{
+    height: 100px;
+    width: 90px;
+    margin: 200px;
+    background-color: rgb(173, 134, 173);
+}
+.text{
+    margin-top: 45px;
+    padding-right: 0px;
+    height: 30px;
+    width: 50px;
+    border:solid 2px black ;
+}
