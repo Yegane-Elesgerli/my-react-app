@@ -1,11 +1,12 @@
 import React from "react";
-import Dice from "./Dice/Dice";
+import Input from "./Input/Input";
+
 
 
  function App() {
   return (
     <div>
-      <Dice/>
+      <Input/>
     </div>
   )
 }
