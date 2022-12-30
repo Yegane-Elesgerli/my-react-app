@@ -6,6 +6,7 @@ class Input extends Component {
     name: "",
     pasport: "",
     gender: true,
+    isActive:true
   };
   handleChek = (e) => {
     this.setState({ [e.target.name]: e.target.value });
@@ -65,7 +66,9 @@ class Input extends Component {
           Tekrar qebul
           <input className="chek" type="checkbox" />
         </label>
-        <button className="btn" onClick={this.handle}>
+        <button  onClick={this.handle}
+         disabled={false}
+         className={this.state.disabled?"btn-dis":"btn"}>
           Göndər
         </button>
       </div>

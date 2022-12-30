@@ -1,0 +1,23 @@
+.btn{
+    width: 100px;
+    height: 30px;
+     margin-top: 50px;
+    margin-left: 150px; 
+
+}
+
+
+
+.btn:active{
+    background-color: red;
+}
+    
+.hint{
+    cursor:cell;
+    width: 170px;
+    height: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: rgb(195, 199, 248);
+    border: solid 1px black;
+}
