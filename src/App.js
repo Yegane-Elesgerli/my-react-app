@@ -1,12 +1,12 @@
 import React from "react";
-import CustomButton from "./CustomButton/CustomButton.js";
+import Form from "./Feedback/Form.js";
 
 
 
  function App() {
   return (
     <div>
-      <CustomButton/>
+      <Form/>
     </div>
   )
 }
