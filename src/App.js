@@ -12,8 +12,7 @@ const App=() => {
   
   return (
     
-     users.filter((user) => user.id )
-    .map((user)=>(
+    users.map((user)=>(
       <List 
   name={user.name}/>
   
