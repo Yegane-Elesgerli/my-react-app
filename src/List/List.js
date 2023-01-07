@@ -10,7 +10,6 @@ export default class List extends Component {
       <div>
         
  <p> user name: {name}</p>
-gnfv
       </div>
     )
   }
