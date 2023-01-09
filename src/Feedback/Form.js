@@ -5,7 +5,7 @@ class Form extends Component {
   state = {
     name: "",
     pasport: "",
-    mail: "",
+    mail: "", 
     tele: "",
     serh: "",
     isActive: true,
